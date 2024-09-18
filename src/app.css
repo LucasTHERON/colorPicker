@@ -1,0 +1,90 @@
+*{
+    font-family: roboto;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    color: rgb(55, 55, 55);
+    text-transform: uppercase;
+}
+
+.picker-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.color-picker{
+    width: 42%;
+}
+
+.palette-section{
+    width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    width: 56%;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+.input{
+    width: 100%;
+    margin-top: 29px;
+    height: 655px;
+}
+
+.input:hover{
+    opacity: 0.9;
+    transition: all 0.1s linear;
+}
+
+.palette-container{
+    /* width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr; */
+}
+
+
+
+.palette-container h2{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.color-palette{
+    display: grid;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+}
+
+
+
+.color-palette > div{
+    height: 185px;
+    position: relative;
+    box-shadow: inset 0px 0px 0px 1px white;
+}
+
+.color-palette > div:hover{
+    box-shadow: inset 0px 0px 0px 5px white;
+}
+
+.color-palette > div:hover p{
+    opacity: 1;
+}
+
+.color-palette > div p{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    width: max-content;
+    bottom: -20px;
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.1s linear;
+}
+
+/* style="border: 1px solid rgba(0,0,0,0.3); padding: 20px; display: flex;" class="color-palette" */
