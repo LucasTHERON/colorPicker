@@ -2,7 +2,7 @@
 
 A Svelte 5 project inspired by color generators. You can enter a color or type space to generate random colors. I had to find techniques to find matching colors from a rgb value.
 
-![alt txt](colorpicker-gif.gif "Demo")
+![alt txt](colorpicker.gif "Demo")
 
 # create-svelte
 
