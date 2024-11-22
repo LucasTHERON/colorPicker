@@ -1,3 +1,9 @@
+# Color Picker
+
+A Svelte 5 project inspired by color generators. You can enter a color or type space to generate random colors. I had to find techniques to find matching colors from a rgb value.
+
+![alt txt](colorpicker-gif.gif "Demo")
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
